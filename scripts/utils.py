@@ -125,9 +125,10 @@ def get_gages_from_hydrofabric(folder_to_eval):
     """
     # search inside the folder for _subset.gpkg recursively
     gpkg_file = None
-    for root, dirs, files in os.walk(folder_to_eval):
+    config_dir = os.path.join(folder_to_eval,"config")
+    for root, dirs, files in os.walk(config_dir):
         for file in files:
-            if file.endswith("_subset.gpkg"):
+            if file.endswith(".gpkg"):
                 gpkg_file = os.path.join(root, file)
                 break
 
