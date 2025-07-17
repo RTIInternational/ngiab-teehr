@@ -1,4 +1,4 @@
-=========================================================================================
+===========================================================================
 ### Note: 
 
 This repo is no longer actively maintained. 
@@ -7,7 +7,7 @@ Please refer to the CIROH fork
 at https://github.com/CIROH-UA/ngiab-teehr/tree/main
 for up-to-date changes
 
-=========================================================================================
+===========================================================================
 
 # ngiab-teehr
 A repository for coupling [TEEHR](https://rtiinternational.github.io/teehr/) with [Nextgen-In-A-Box (NGIAB)](https://github.com/jameshalgren/NGIAB-CloudInfra) simulation output.
